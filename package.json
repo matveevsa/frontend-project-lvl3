@@ -43,8 +43,9 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "melanke-watchjs": "^1.5.2",
+    "yup": "^0.28.1"
   }
 }

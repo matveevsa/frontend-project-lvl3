@@ -8,10 +8,24 @@
       <div class="container">
         <div class="jumbotron d-flex flex-column bg-dark text-light">
           <h1 class="display-3 font-weight-bold">RSS News!</h1>
-          <p class="h2">Frontend project lvl3 by <a class="text-white" href="https://ru.hexlet.io/u/driver">Matveev S.A.</a>
-          <input class="mb-3 form-control" type="text" name="rss[utl]" placeholder="https://ru.hexlet.io/blog.rss">
-          <a class="btn btn-info btn-lg w-25" href="#" role="button">Subscribe</a>
+          <p class="h2">Frontend project lvl3 by <a class="text-white" target="_blank" href="https://ru.hexlet.io/u/driver">Matveev S.A.</a></p>
+          <div>
+          <form>
+            <input class="mb-1 form-control is-invalid" type="text" name="rss[url]" placeholder="https://ru.hexlet.io/blog.rss">
+            <p class="invalid-feedback">Please choose a username.</p>
+            </div>
+            <input type="submit" class="btn btn-info btn-lg w-25" href="#" role="button" value="Subscribe">
+          </form>
         </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="feedList" class="col-3">
+          <p>Новости Хекслет!</p>
+        </div>
+        <div id="top" class="row col-9"></div>
       </div>
     </div>
   </body>
